@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/AuthPages/auth.js", "src/app/Home/cart/page.jsx", "src/Components/ClassicRealism.jsx", "src/app/Home/checkout/[id]/page.jsx", "src/Components/lens.jsx", "src/Components/PaintingForSale.jsx", "src/Components/ProductDescription.jsx", "src/Components/OwlCarousel.jsx", "src/Components/TestimonialSlider.jsx", "src/Components/TopAutoplay.jsx", "src/app/api/auth/[...nextauth]/route.js", "src/app/Home/page.jsx"],
+  "exclude": ["node_modules"]
+}
