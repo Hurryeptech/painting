@@ -42,7 +42,7 @@ const NewPainting = () => {
       <img src="/assets/banner/sale.png" alt="Painting" />
       <div className="w-full text-gold text-sm py-2 xl:px-24 lg:px-10 md:px-5 px-4">
         <div className="md:p-5">
-          <div className="columns-1 sm:columns-1 md:columns-2 lg:columns-3 gap-5 py-10">
+          <div className="columns-1 sm:columns-1 md:columns-2 lg:columns-3 gap-2 py-10">
             {paintingList.length > 0 ? (
               paintingList.map((painting, index) => (
                 <div

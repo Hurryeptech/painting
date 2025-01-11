@@ -8,7 +8,6 @@ import { Navigation, Autoplay } from "swiper/modules";
 const Carousel = () => {
   return (
     <div className="md:p-10 p-5 relative overflow-hidden ">
-      {/* Custom Navigation Buttons */}
 
       <img
         src="/assets/angle1.png"
@@ -28,8 +27,8 @@ const Carousel = () => {
       <Swiper
         modules={[Navigation, Autoplay]}
         navigation={{
-          prevEl: ".custom-prev", // Link to custom prev button
-          nextEl: ".custom-next", // Link to custom next button
+          prevEl: ".custom-prev",
+          nextEl: ".custom-next", 
         }}
         autoplay={{ delay: 3000 }}
         loop={true}

@@ -8,7 +8,14 @@ const Category = () => {
       <img src="/assets/banner/category.png" alt="Painting" />
       <div className=" w-full text-gold text-sm  py-2">
         <div className="p-5 ">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 lg:px-24 px-4 py-5">
+          <div className=" lg:px-24 px-4 py-5">
+            <img
+              src="/assets/category/cat.png"
+              alt=""
+              className="w-full h-full"
+            />
+          </div>
+          {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 lg:px-24 px-4 py-5">
             <div className="flex flex-col items-center justify-center">
               <img
                 src="/assets/category/c1.png"
@@ -51,7 +58,7 @@ const Category = () => {
                 className="w-full h-full"
               />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 

@@ -196,7 +196,7 @@ const PaintHome = () => {
                 <h3>Work with your own art advisor / Rebecca Wilson</h3>
               </div>
             </div>
-            <div className="xl:px-40 px-4 py-4 flex flex-col md:flex-row items-center justify-between">
+            <div className="xl:px-40 px-10 py-4 flex flex-col md:flex-row items-center justify-between">
               <div className="flex flex-col md:flex-row items-center xl:gap-4 gap-2 w-full">
                 <div className="relative inline-block w-full md:w-1/3 focus:text-sandal text-brown hover:text-sandal ">
                   <input
@@ -266,20 +266,20 @@ const PaintHome = () => {
                       onSelect={(code) => setSelected(code)}
                       showSelectedLabel={true}
                       showOptionLabel={true}
-                      style={{fontSize:"12px"}}
+                      style={{ fontSize: "12px" }}
                       className="text-gold w-full navflag !text-[12px]"
                     />
                   </div>
                 </div>
 
-                <div className="relative w-full md:w-1/4 text-lightSandal">
+                <div className="relative md:w-[150px] w-full text-lightSandal">
                   <select
                     name="Language"
                     id="Language"
-                    className="appearance-none text-[12px] text-lightSandal px-4 py-2 outline-none bg-transparent border-2 border-lightSandal   rounded-md w-full"
+                    className="appearance-none text-[12px] text-lightSandal px-4 py-1.5 outline-none bg-transparent border-2 border-[#bd923b] rounded-md w-full"
                   >
                     <option
-                      value="$-USD "
+                      value="$-USD"
                       className="bg-brown hover:bg-sandal hover:text-brown"
                     >
                       $-USD
@@ -297,14 +297,14 @@ const PaintHome = () => {
                       £-GBP
                     </option>
                   </select>
-                  <span className="absolute inset-y-0 right-3 flex items-center pointer-events-none">
+                  <span className="absolute top-1/2 right-3 transform -translate-y-1/2 flex items-center pointer-events-none">
                     <FaChevronDown size={10} />
                   </span>
                 </div>
               </div>
             </div>
 
-            <div className="flex flex-wrap xl:px-40 px-4 gap-2 pb-4 justify-center w-full">
+            <div className="flex flex-wrap xl:px-40 px-10 gap-2 pb-4 justify-center w-full">
               {items.map((item, index) => (
                 <div
                   key={index}
@@ -326,7 +326,7 @@ const PaintHome = () => {
               {navItems.map((item, index) => (
                 <div
                   key={index}
-                  className="relative text-sandal  w-full rounded-sm px-4 py-4 cursor-pointer flex flex-col justify-center items-center gap-2 group"
+                  className="relative text-sandal  w-full rounded-sm px-4 py-2 cursor-pointer flex flex-col justify-center items-center gap-2 group"
                 >
                   <span
                     className="text-[14px] font-bold flex items-center gap-2"
